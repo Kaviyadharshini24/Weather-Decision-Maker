@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <img src="pic.jpg" alt="weather image"/>
+        <h1>Weather Decision Maker</h1>
+        
+        <div class="options">
+            <label>
+                <input type="radio" name="activity" value="play">
+                Play outdoor games
+            </label>
+            <label>
+                <input type="radio" name="activity" value="events">
+                Conduct events
+            </label>
+            <label>
+                <input type="radio" name="activity" value="tourist">
+                Visit tourist places
+            </label>
+        </div>
+        
+        <input type="text" id="city-input" placeholder="Enter city name">
+        <button id="get-weather">Submit</button>
+        
+        <div id="weather-info">
+            <p id="temperature"></p>
+            <p id="submit"></p>
+          
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
